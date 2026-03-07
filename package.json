@@ -8,7 +8,12 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "distill": "tsx scripts/distill.ts"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "tsx": "^4.19.2"
   },
   "keywords": [],
   "author": "",

@@ -1,3 +1,5 @@
+# Dependencies
+node_modules/
+
 # Ignore JSON files in any data folders
 **/data/**/*.json
-
