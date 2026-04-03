@@ -53,7 +53,7 @@ async function fetchMessageDetails(
     }),
   );
 
-  return detailed.filter(Boolean);
+  return detailed.filter((m): m is GmailMessage => m != null);
 }
 
 function filterBySenders(messages: GmailMessage[], senders: string[]) {
